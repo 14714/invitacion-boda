@@ -1,7 +1,7 @@
 <template>
-  <div class="flex h-screen">
-    <div class="background-image flex-1"></div>
-    <div class="flex-1 text-center h-full">
+  <div class="lg:flex lg:h-screen grid">
+    <div class="background-image lg:flex-1 lg:h-screen h-[60vh]"></div>
+    <div class="lg:flex-1 text-center lg:h-screen">
       <div class="text-primary flex flex-col h-full p-6">
         <div class="flex">
           <div class="flex-1">
@@ -12,7 +12,7 @@
           </div>
         </div>
         <div class="mx-16">
-          <h4 class="text-3xl">{{ msg }}</h4>
+          <h4 class="text-2xl">{{ msg }}</h4>
           <div class="border-t border-primary my-4"></div>
           <h1 class="text-8xl">L&K</h1>
           <div class="border-t border-primary my-4"></div>
@@ -28,7 +28,7 @@
           </p>
           <detalleTwo class="mx-auto" />
         </div>
-        <div class="flex">
+        <div class="flex flex-1">
           <div class="flex-1 content-end">
             <esquinaSvg style="transform: scaleY(-1); float: left;" />
           </div>
