@@ -16,7 +16,7 @@
           <div class="border-t border-primary my-4"></div>
           <h1 class="text-8xl">L&K</h1>
           <div class="border-t border-primary my-4"></div>
-          <h4 class="text-3xl font-bold">LUCIA & KEVIN</h4>
+          <h4 class="text-2xl font-bold">LUCIA & KEVIN</h4>
         </div>
         <div class="mt-14">
           <detalleThree class="mx-auto" />
@@ -28,7 +28,7 @@
           </p>
           <detalleTwo class="mx-auto" />
         </div>
-        <div class="flex grow">
+        <div class="flex">
           <div class="flex-1 content-end">
             <esquinaSvg style="transform: scaleY(-1); float: left;" />
           </div>
@@ -41,12 +41,17 @@
       </div>
     </div>
   </div>
+  <div>
+    <Counter />
+  </div>
 </template>
 
 <script>
 import esquinaSvg from "@/components/svg/esquinaSvg.vue";
 import detalleThree from "@/components/svg/detalle-3.vue";
 import detalleTwo from "@/components/svg/detalle-2.vue";
+import Counter from "./Counter.vue"
+
 import anillos from "@/components/svg/anillos.svg";
 import camara from "@/components/svg/camara.svg";
 import corneta from "@/components/svg/corneta.svg";
@@ -66,6 +71,7 @@ export default {
     esquinaSvg,
     detalleThree,
     detalleTwo,
+    Counter,
   },
   data() {
     return {
