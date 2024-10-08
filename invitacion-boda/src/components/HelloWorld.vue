@@ -1,58 +1,94 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="flex h-screen">
+    <div class="background-image flex-1"></div>
+    <div class="flex-1 text-center h-full">
+      <div class="text-primary flex flex-col h-full p-6">
+        <div class="flex">
+          <div class="flex-1">
+            <esquinaSvg />
+          </div>
+          <div class="flex-1">
+            <esquinaSvg style="transform: scaleX(-1); float: right" />
+          </div>
+        </div>
+        <div class="mx-16">
+          <h4 class="text-3xl">{{ msg }}</h4>
+          <div class="border-t border-primary my-4"></div>
+          <h1 class="text-8xl">L&K</h1>
+          <div class="border-t border-primary my-4"></div>
+          <h4 class="text-3xl font-bold">LUCIA & KEVIN</h4>
+        </div>
+        <div class="mt-14">
+          <detalleThree class="mx-auto" />
+          <p class="text-center my-4">
+            "Ponme como un sello sobre tu corazon, como un sello sobre tu brazo,
+            porque el amor es tan fuerte como la muerte, y la devocion total,
+            tan exigente como la Tumba. Sus llamas son un fuego ardiente, la
+            llama de Jah."
+          </p>
+          <detalleTwo class="mx-auto" />
+        </div>
+        <div class="flex grow">
+          <div class="flex-1 content-end">
+            <esquinaSvg style="transform: scaleY(-1); float: left;" />
+          </div>
+          <div class="flex-1 content-end">
+            <esquinaSvg
+              style="transform: scaleX(-1) scaleY(-1); float: right"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import esquinaSvg from "@/components/svg/esquinaSvg.vue";
+import detalleThree from "@/components/svg/detalle-3.vue";
+import detalleTwo from "@/components/svg/detalle-2.vue";
+import anillos from "@/components/svg/anillos.svg";
+import camara from "@/components/svg/camara.svg";
+import corneta from "@/components/svg/corneta.svg";
+import detalle_1 from "@/components/svg/detalle-1.svg";
+import detalle_2 from "@/components/svg/detalle-2.svg";
+import dress from "@/components/svg/dress.svg";
+import esquina_portada from "@/components/svg/esquina-portada.svg";
+import heart from "@/components/svg/heart.svg";
+import tips from "@/components/svg/tips.svg";
+
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+  components: {
+    esquinaSvg,
+    detalleThree,
+    detalleTwo,
+  },
+  data() {
+    return {
+      anillos: anillos,
+      camara: camara,
+      corneta: corneta,
+      detalle_1: detalle_1,
+      detalle_2: detalle_2,
+      dress: dress,
+      esquina_portada: esquina_portada,
+      heart: heart,
+      tips: tips,
+    };
+  },
+};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.background-image {
+  background-image: url("../assets/img-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset -10px 0 7px rgba(0, 0, 0, 0.5);
 }
 </style>
