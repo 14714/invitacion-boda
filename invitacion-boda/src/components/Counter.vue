@@ -9,7 +9,7 @@
       </div>
       <h1 class="text-4xl py-8">Falta</h1>
       <div class="py-6">
-        <div class="flex w-1/2 mx-auto text-center">
+        <div class="flex lg:w-1/2 w-11/12 mx-auto text-center">
           <div class="flex-1">
             <h1 class="text-3xl">
               {{ days }}
