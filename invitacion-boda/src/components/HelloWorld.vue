@@ -16,11 +16,11 @@
           <div class="border-t border-primary my-4"></div>
           <h1 class="text-8xl">L&K</h1>
           <div class="border-t border-primary my-4"></div>
-          <h4 class="text-2xl font-bold">LUCIA & KEVIN</h4>
+          <h4 class="text-2xl font-bold">LUCI & KEVIN</h4>
         </div>
         <div class="mt-14">
           <detalleThree class="mx-auto" />
-          <p class="text-center my-4">
+          <p class="text-center my-4 font-light">
             "Ponme como un sello sobre tu corazon, como un sello sobre tu brazo,
             porque el amor es tan fuerte como la muerte, y la devocion total,
             tan exigente como la Tumba. Sus llamas son un fuego ardiente, la
@@ -30,7 +30,7 @@
         </div>
         <div class="flex flex-1">
           <div class="flex-1 content-end">
-            <esquinaSvg style="transform: scaleY(-1); float: left;" />
+            <esquinaSvg style="transform: scaleY(-1); float: left" />
           </div>
           <div class="flex-1 content-end">
             <esquinaSvg
@@ -44,13 +44,21 @@
   <div>
     <Counter />
   </div>
+  <div>
+    <Agenda />
+  </div>
+  <div>
+    <FotosBoda />
+  </div>
 </template>
 
 <script>
 import esquinaSvg from "@/components/svg/esquinaSvg.vue";
 import detalleThree from "@/components/svg/detalle-3.vue";
 import detalleTwo from "@/components/svg/detalle-2.vue";
-import Counter from "./Counter.vue"
+import Counter from "./Counter.vue";
+import Agenda from "./Agenda.vue";
+import FotosBoda from "./Fotos.vue";
 
 import anillos from "@/components/svg/anillos.svg";
 import camara from "@/components/svg/camara.svg";
@@ -72,6 +80,8 @@ export default {
     detalleThree,
     detalleTwo,
     Counter,
+    Agenda,
+    FotosBoda,
   },
   data() {
     return {
@@ -85,6 +95,9 @@ export default {
       heart: heart,
       tips: tips,
     };
+  },
+  mounted() {
+    document.title = "Luci & Kevin - Boda";
   },
 };
 </script>

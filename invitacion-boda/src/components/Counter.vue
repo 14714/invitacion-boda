@@ -7,7 +7,7 @@
         <Break />
         <Break />
       </div>
-      <h1 class="text-4xl py-8">Falta</h1>
+      <h1 class="text-4xl py-8">Faltan</h1>
       <div class="py-6">
         <div class="flex lg:w-1/2 w-11/12 mx-auto text-center">
           <div class="flex-1">
@@ -37,7 +37,10 @@
         </div>
       </div>
       <div class="pb-8">
-        <Heart class="fill-white mx-auto" />      
+        <Heart class="fill-white mx-auto" />
+      </div>
+      <div>
+        <p class="pb-2 font-light">"Confirmar antes del 10 Dic"</p>
       </div>
       <div class="flex fill-white space-x-4">
         <Break />
@@ -50,8 +53,8 @@
 </template>
 
 <script>
-import Break from "./svg/Break.vue"
-import Heart from "./svg/Heart.vue"
+import Break from "./svg/Break.vue";
+import Heart from "./svg/Heart.vue";
 
 export default {
   name: "CounterOne",
@@ -64,7 +67,7 @@ export default {
       intervalId: null,
     };
   },
-  components:{
+  components: {
     Break,
     Heart,
   },
