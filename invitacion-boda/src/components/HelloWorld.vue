@@ -1,4 +1,23 @@
 <template>
+  <div class="relative">
+    <audio ref="backgroundAudio" :src="audioSource" loop />
+    <button class="z-50 bg-primary rounded-full m-2 p-2 text-white fixed top-0 right-0" @click="playAudio">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"
+        />
+      </svg>
+    </button>
+  </div>
   <div class="lg:flex lg:h-screen grid">
     <div class="background-image lg:flex-1 lg:h-screen h-[60vh]"></div>
     <div class="lg:flex-1 text-center lg:h-screen">
@@ -94,10 +113,23 @@ export default {
       esquina_portada: esquina_portada,
       heart: heart,
       tips: tips,
+      audioSource: require("@/assets/audio.mp3"),
     };
   },
   mounted() {
     document.title = "Luci & Kevin - Boda";
+  },
+  methods: {
+    playAudio() {
+      this.$refs.backgroundAudio
+        .play()
+        .then(() => {
+          console.log("Audio reproduciéndose.");
+        })
+        .catch((error) => {
+          console.error("Error al reproducir el audio:", error);
+        });
+    },
   },
 };
 </script>
