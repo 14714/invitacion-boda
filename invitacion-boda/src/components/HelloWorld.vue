@@ -69,6 +69,12 @@
   <div>
     <FotosBoda />
   </div>
+  <div>
+    <Fiesta />
+  </div>
+  <div>
+    <Final />
+  </div>
 </template>
 
 <script>
@@ -78,16 +84,8 @@ import detalleTwo from "@/components/svg/detalle-2.vue";
 import Counter from "./Counter.vue";
 import Agenda from "./Agenda.vue";
 import FotosBoda from "./Fotos.vue";
-
-import anillos from "@/components/svg/anillos.svg";
-import camara from "@/components/svg/camara.svg";
-import corneta from "@/components/svg/corneta.svg";
-import detalle_1 from "@/components/svg/detalle-1.svg";
-import detalle_2 from "@/components/svg/detalle-2.svg";
-import dress from "@/components/svg/dress.svg";
-import esquina_portada from "@/components/svg/esquina-portada.svg";
-import heart from "@/components/svg/heart.svg";
-import tips from "@/components/svg/tips.svg";
+import Fiesta from './Fiesta.vue';
+import Final from './Final.vue'
 
 export default {
   name: "HelloWorld",
@@ -101,18 +99,11 @@ export default {
     Counter,
     Agenda,
     FotosBoda,
+    Fiesta,
+    Final,
   },
   data() {
     return {
-      anillos: anillos,
-      camara: camara,
-      corneta: corneta,
-      detalle_1: detalle_1,
-      detalle_2: detalle_2,
-      dress: dress,
-      esquina_portada: esquina_portada,
-      heart: heart,
-      tips: tips,
       audioSource: require("@/assets/audio.mp3"),
     };
   },

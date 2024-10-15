@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.object-center {
+  object-position: center;
+}
+.object-bottom {
+  object-position: bottom;
+}
+.object-pos-one {
+  object-position: 0% 40%;
+}
+.object-pos-two {
+  object-position: 0% 90%;
+}

@@ -7,7 +7,7 @@
       <Break />
     </div>
     <div class="pt-20">
-      <DetalleFive class="mx-auto w-1/3" />
+      <DetalleFive class="mx-auto w-1/3 fill-white stroke-white" />
     </div>
     <div class="text-center text-white py-5">
       <h1 class="text-4xl">Retratos de Nuestro Amor</h1>
@@ -40,10 +40,10 @@
         <SlideImg :src="'2'" :position="'bottom'" @click="openModal('2')" />
       </swiper-slide>
       <swiper-slide>
-        <SlideImg :src="'3'" :position="'center'" @click="openModal('3')" />
+        <SlideImg :src="'3'" :position="'pos-one'" @click="openModal('3')" />
       </swiper-slide>
       <swiper-slide>
-        <SlideImg :src="'4'" :position="'bottom'" @click="openModal('4')" />
+        <SlideImg :src="'4'" :position="'pos-two'" @click="openModal('4')" />
       </swiper-slide>
     </swiper-container>
     <div class="flex fill-white space-x-4 pb-6">
