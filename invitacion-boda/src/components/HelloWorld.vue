@@ -24,35 +24,35 @@
       <div class="text-primary flex flex-col h-full p-6">
         <div class="flex">
           <div class="flex-1">
-            <esquinaSvg />
+            <esquinaSvg class="fill-secundaryDark" />
           </div>
           <div class="flex-1">
-            <esquinaSvg style="transform: scaleX(-1); float: right" />
+            <esquinaSvg class="fill-secundaryDark" style="transform: scaleX(-1); float: right" />
           </div>
         </div>
         <div class="mx-16">
           <h4 class="text-2xl">{{ msg }}</h4>
-          <div class="border-t border-primary my-4"></div>
+          <div class="border-t border-secundaryDark my-4"></div>
           <h1 class="text-8xl qwitcher-grypen-bold">L & K</h1>
-          <div class="border-t border-primary my-4 "></div>
+          <div class="border-t border-secundaryDark my-4 "></div>
           <h4 class="text-7xl font-bold updock-regular">Luci & Kevin</h4>
         </div>
         <div class="mt-14">
-          <detalleThree class="mx-auto" />
+          <detalleThree class="mx-auto fill-secundaryDark" />
           <p class="text-center my-4 font-light">
             "Ponme como un sello sobre tu corazon, como un sello sobre tu brazo,
             porque el amor es tan fuerte como la muerte, y la devocion total,
             tan exigente como la Tumba. Sus llamas son un fuego ardiente, la
             llama de Jah."
           </p>
-          <detalleTwo class="mx-auto" />
+          <detalleTwo class="mx-auto fill-secundaryDark stroke-secundaryDark" />
         </div>
         <div class="flex flex-1">
           <div class="flex-1 content-end">
-            <esquinaSvg style="transform: scaleY(-1); float: left" />
+            <esquinaSvg class="fill-secundaryDark" style="transform: scaleY(-1); float: left" />
           </div>
           <div class="flex-1 content-end">
-            <esquinaSvg
+            <esquinaSvg class="fill-secundaryDark"
               style="transform: scaleX(-1) scaleY(-1); float: right"
             />
           </div>

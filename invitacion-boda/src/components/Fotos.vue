@@ -7,14 +7,16 @@
       <Break />
     </div>
     <div class="pt-20">
-      <DetalleFive class="mx-auto w-1/3 fill-white stroke-white" />
+      <DetalleFive class="mx-auto w-1/3 fill-secundaryDark stroke-secundaryDark" />
     </div>
     <div class="text-center text-white py-5">
       <h1 class="text-4xl">Retratos de Nuestro Amor</h1>
-      <p class="">Un minuto, un segundo, un instante que queda en la eternidad</p>
+      <p class="">
+        Un minuto, un segundo, un instante que queda en la eternidad
+      </p>
     </div>
     <div class="pb-7">
-        <Cam class="w-24 mx-auto" />
+      <Cam class="w-24 mx-auto" />
     </div>
     <swiper-container
       :slides-per-view="3"
@@ -24,8 +26,11 @@
         hideOnClick: true,
       }"
       :breakpoints="{
+        0: {
+          slidesPerView: 1, // Mostrar solo una diapositiva en dispositivos móviles
+        },
         768: {
-          slidesPerView: 3,
+          slidesPerView: 3, // Mostrar tres diapositivas en pantallas grandes
         },
       }"
       :loop="true"

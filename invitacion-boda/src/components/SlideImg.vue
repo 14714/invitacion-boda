@@ -2,7 +2,7 @@
   <div class="bg-white">
     <div class="p-4 pb-20 mb-24 shadow-md">
       <img
-        :class="`h-36 lg:h-72 w-full object-cover object-${position}`"
+        :class="`h-80 lg:h-72 w-full object-cover object-${position}`"
         :src="imageSrc"
         alt="ImagenPa"
       />

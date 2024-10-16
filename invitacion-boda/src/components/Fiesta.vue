@@ -9,7 +9,7 @@
         Hagamos juntos una fiesta épica. Aquí algunos detalles a tener en cuenta
       </p>
     </div>
-    <div class="flex text-white fill-white stroke-white">
+    <div class="lg:flex flex-row text-white fill-white stroke-white">
       <div class="bg-primary flex-1 m-5 rounded-[30px] p-5 text-center">
         <h1 class="text-2xl">Dress Code</h1>
         <Corbata class="w-24 mx-auto" />

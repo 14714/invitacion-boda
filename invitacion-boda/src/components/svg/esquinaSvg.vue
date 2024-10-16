@@ -145,7 +145,7 @@ export default {
 svg {
   overflow: hidden;
   vertical-align: middle;
-  fill:#0c5f59
+  
 }
 .adorno-esquina-0 {
   

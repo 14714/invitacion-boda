@@ -76,7 +76,5 @@ export default {
     svg {
         width: 8rem;
         transform: scaleY(-1);
-        stroke: #0c5f59;
-        fill: #0c5f59;
     }
 </style>

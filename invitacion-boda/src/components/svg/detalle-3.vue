@@ -29,6 +29,5 @@ export default {
 svg{
     width:0.7rem;
     transform: scaleY(-1);
-    fill:#0c5f59
 }
 </style>

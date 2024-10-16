@@ -12,8 +12,8 @@
         <EsquinaDot class="w-12" style="transform: scaleX(-1); float: right" />
       </div>
     </div>
-    <div class="flex py-10">
-      <div class="flex-1">
+    <div class="flex-row lg:flex py-10">
+      <div class="flex-1 lg:pb-0 pb-10">
         <div
           class="mx-auto w-2/3 text-center text-white rounded-[30px] bg-primary"
         >
@@ -37,9 +37,9 @@
           </div>
           <div class="mt-7 pb-10">
             <h2 class="text-2xl">Dirección</h2>
-            <p>Senillosa Neuquen</p>
+            <p>Av. Belgrano 933, Senillosa</p>
             <div class="mt-5">
-              <a href="https://maps.app.goo.gl/V3BMsZDFhvwP94W79" class="bg-primaryDark mt-7 px-10 py-3 rounded-lg">
+              <a href="https://maps.app.goo.gl/ia1XFMv7hgNrFvEU9" class="bg-primaryDark mt-7 px-10 py-3 rounded-lg">
                 ¿Como Llegar?
               </a>
             </div>
@@ -70,10 +70,12 @@
           </div>
           <div class="mt-7 pb-10">
             <h2 class="text-2xl">Dirección</h2>
-            <p>Senillosa Neuquen</p>
-            <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
-              ¿Como Llegar?
-            </button>
+            <p>Higinio Escudero, Senillosa (Frente Ruta 22)</p>
+            <div class="mt-5">
+              <a href="https://maps.app.goo.gl/P34YjPgKsvHjGXpQ6" class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
+                ¿Como Llegar?
+              </a>
+            </div>
           </div>
         </div>
       </div>
