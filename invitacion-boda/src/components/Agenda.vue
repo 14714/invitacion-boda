@@ -22,25 +22,27 @@
           <DetalleFour class="px-10 mt-2" />
           <div class="mt-10">
             <h2 class="text-2xl">Dia</h2>
-            <p>Dia xx de xx</p>
-            <p>xx hs</p>
-            <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
+            <p>Dia 17 de Enero del 2025</p>
+            <p>17:15hs</p>
+            <!-- <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
               Agendar
-            </button>
+            </button> -->
           </div>
           <div class="mt-7">
             <h2 class="text-2xl">Lugar</h2>
-            <p>Lugar de Ceremonia</p>
-            <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
+            <p>Salón del Reino de los Testigos de Jehová</p>
+            <!-- <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
               Confirmar Assitencia
-            </button>
+            </button> -->
           </div>
           <div class="mt-7 pb-10">
             <h2 class="text-2xl">Dirección</h2>
             <p>Senillosa Neuquen</p>
-            <a href="https://maps.app.goo.gl/V3BMsZDFhvwP94W79" class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
-              ¿Como Llegar?
-            </a>
+            <div class="mt-5">
+              <a href="https://maps.app.goo.gl/V3BMsZDFhvwP94W79" class="bg-primaryDark mt-7 px-10 py-3 rounded-lg">
+                ¿Como Llegar?
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -53,18 +55,18 @@
           <DetalleFour class="px-10 mt-2" />
           <div class="mt-10">
             <h2 class="text-2xl">Dia</h2>
-            <p>Dia xx de xx</p>
-            <p>xx hs</p>
-            <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
+            <p>Dia 17 de Enero del 2025</p>
+            <p>20:30hs</p>
+            <!-- <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
               Agendar
-            </button>
+            </button> -->
           </div>
           <div class="mt-7">
             <h2 class="text-2xl">Lugar</h2>
-            <p>Lugar de Ceremonia</p>
-            <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
+            <p>Salón de eventos "Lo de Roberto"</p>
+            <!-- <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
               Confirmar Assitencia
-            </button>
+            </button> -->
           </div>
           <div class="mt-7 pb-10">
             <h2 class="text-2xl">Dirección</h2>

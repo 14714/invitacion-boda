@@ -40,8 +40,10 @@
       class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
     >
       <div class="bg-white p-8 rounded-lg max-w-lg mx-auto text-center">
-        <h2 class="text-2xl mb-4">{{ modalTitle }}</h2>
-        <p>{{ modalContent }}</p>
+        <h2 class="text-3xl mb-4">{{ modalTitle }}</h2>
+        <h3 class="text-2xl py-2">{{ tituloModal }}</h3>
+        <p class="font-bold text-center">{{ modalTexto }}</p>
+        <p class="font-light text-center">{{ modalContent }}</p>
         <button
           @click="closeModal"
           class="mt-4 px-6 py-2 bg-primaryDark text-white rounded-lg"
@@ -69,20 +71,26 @@ export default {
     return {
       isModalOpen: false,
       modalTitle: "",
+      modalTexto: "",
       modalContent: "",
+      tituloModal: "",
     };
   },
   methods: {
     openModal(type) {
       this.isModalOpen = true;
       if (type === "dressCode") {
+        this.modalTexto = "1 Timoteo 2:9";
         this.modalTitle = "Dress Code";
+        this.tituloModal = "Formal - Gala";
         this.modalContent =
-          "1 Timoteo 2:9 \" Igualmente, las mujeres deben vestirse con ropa apropiada y arreglarse con modestia y buen juicio, no con peinados de trenzas y oro o perlas o ropa muy cara \" .";
+          " \" Igualmente [...] deben vestirse con ropa apropiada y arreglarse con modestia y buen juicio \" .";
       } else if (type === "tips") {
+        this.modalTexto = "1 Corintios 10:31";
         this.modalTitle = "Tips y Notas";
+        this.tituloModal = "";
         this.modalContent =
-          "1 Corintios 10:31 \" Por eso, ya sea que estén comiendo, bebiendo o haciendo cualquier otra cosa, háganlo todo para la gloria de Dios.\" .";
+          " \" Por eso, ya sea que estén comiendo, bebiendo o haciendo cualquier otra cosa, háganlo todo para la gloria de Dios.\" .";
       }
     },
     closeModal() {
