@@ -38,8 +38,8 @@
           <div class="mt-7 pb-10">
             <h2 class="text-2xl">Dirección</h2>
             <p>Av. Belgrano 933, Senillosa</p>
-            <div class="mt-5">
-              <a href="https://maps.app.goo.gl/ia1XFMv7hgNrFvEU9" class="bg-primaryDark mt-7 px-10 py-3 rounded-lg">
+            <div class="mt-16">
+              <a href="https://maps.app.goo.gl/ia1XFMv7hgNrFvEU9" class="bg-primaryDark hover:bg-primaryLight mt-7 px-10 py-3 rounded-lg">
                 ¿Como Llegar?
               </a>
             </div>
@@ -71,8 +71,8 @@
           <div class="mt-7 pb-10">
             <h2 class="text-2xl">Dirección</h2>
             <p>Higinio Escudero, Senillosa (Frente Ruta 22)</p>
-            <div class="mt-5">
-              <a href="https://maps.app.goo.gl/P34YjPgKsvHjGXpQ6" class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
+            <div class="mt-16">
+              <a href="https://maps.app.goo.gl/P34YjPgKsvHjGXpQ6" class="bg-primaryDark hover:bg-primaryLight mt-3 px-10 py-3 rounded-lg">
                 ¿Como Llegar?
               </a>
             </div>

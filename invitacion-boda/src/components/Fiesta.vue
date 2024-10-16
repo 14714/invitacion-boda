@@ -9,25 +9,25 @@
         Hagamos juntos una fiesta épica. Aquí algunos detalles a tener en cuenta
       </p>
     </div>
-    <div class="lg:flex flex-row text-white fill-white stroke-white">
+    <div class="lg:flex text-white fill-white stroke-white">
       <div class="bg-primary flex-1 m-5 rounded-[30px] p-5 text-center">
-        <h1 class="text-2xl">Dress Code</h1>
-        <Corbata class="w-24 mx-auto" />
+        <h1 class="text-2xl pb-5">Dress Code</h1>
+        <Corbata class="w-24 mx-auto pb-5" />
         <p>Una orientación para tu vestuario</p>
         <button
           @click="openModal('dressCode')"
-          class="text-white bg-primaryDark mt-3 px-10 py-3 rounded-lg"
+          class="text-white bg-primaryDark hover:bg-primaryLight mt-3 px-10 py-3 rounded-lg"
         >
           Ver más
         </button>
       </div>
       <div class="bg-primary flex-1 m-5 rounded-[30px] p-5 text-center">
-        <h1 class="text-2xl">Tips y Notas</h1>
-        <Libreta class="w-12 mx-auto" />
+        <h1 class="text-2xl pb-5">Tips y Notas</h1>
+        <Libreta class="w-12 mx-auto pb-5" />
         <p>Información adicional para tener en cuenta</p>
         <button
           @click="openModal('tips')"
-          class="text-white bg-primaryDark mt-3 px-10 py-3 rounded-lg"
+          class="text-white bg-primaryDark hover:bg-primaryLight mt-3 px-10 py-3 rounded-lg"
         >
           Ver más
         </button>
