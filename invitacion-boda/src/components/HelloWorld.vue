@@ -33,9 +33,9 @@
         <div class="mx-16">
           <h4 class="text-2xl">{{ msg }}</h4>
           <div class="border-t border-primary my-4"></div>
-          <h1 class="text-8xl">L&K</h1>
-          <div class="border-t border-primary my-4"></div>
-          <h4 class="text-2xl font-bold">LUCI & KEVIN</h4>
+          <h1 class="text-8xl qwitcher-grypen-bold">L & K</h1>
+          <div class="border-t border-primary my-4 "></div>
+          <h4 class="text-7xl font-bold updock-regular">Luci & Kevin</h4>
         </div>
         <div class="mt-14">
           <detalleThree class="mx-auto" />

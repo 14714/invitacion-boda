@@ -38,9 +38,9 @@
           <div class="mt-7 pb-10">
             <h2 class="text-2xl">Dirección</h2>
             <p>Senillosa Neuquen</p>
-            <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
+            <a href="https://maps.app.goo.gl/V3BMsZDFhvwP94W79" class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
               ¿Como Llegar?
-            </button>
+            </a>
           </div>
         </div>
       </div>
