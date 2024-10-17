@@ -42,8 +42,10 @@
       <div class="bg-white p-8 rounded-lg max-w-lg mx-auto text-center">
         <h2 class="text-3xl mb-4">{{ modalTitle }}</h2>
         <h3 class="text-2xl py-2">{{ tituloModal }}</h3>
+        <p class="font-light text-base py-2" v-if="preTexto">{{ preTexto }}</p>
         <p class="font-bold text-center">{{ modalTexto }}</p>
         <p class="font-light text-center">{{ modalContent }}</p>
+        <p class="font-light text-xs py-2" v-if="postTexto">{{ postTexto }}</p>
         <button
           @click="closeModal"
           class="mt-4 px-6 py-2 bg-primaryDark text-white rounded-lg"
@@ -74,6 +76,8 @@ export default {
       modalTexto: "",
       modalContent: "",
       tituloModal: "",
+      preTexto: "",
+      postTexto: "",
     };
   },
   methods: {
@@ -86,6 +90,8 @@ export default {
         this.modalContent =
           " \" Igualmente [...] deben vestirse con ropa apropiada y arreglarse con modestia y buen juicio \" .";
       } else if (type === "tips") {
+        this.preTexto = "En una ocacion tan especial queremos q nuestro comportamiento demuestre respeto y agradecimiento por este bonito amor a nuestro padre Jehová";
+        this.postTexto = "Sugerencia para padres: Para asegurarnos de que todos disfruten al máximo, les pedimos que sus pequeños se comporten de la mejor manera posible durante momentos especiales como la ceremonia y el vals de los novios. Agradecemos de antemano su comprensión y apoyo. ¡Estamos emocionados de celebrar juntos!";
         this.modalTexto = "1 Corintios 10:31";
         this.modalTitle = "Tips y Notas";
         this.tituloModal = "";
