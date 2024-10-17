@@ -21,22 +21,22 @@
           <h1 class="text-4xl">Ceremonia</h1>
           <DetalleFour class="px-10 mt-2" />
           <div class="mt-10">
-            <h2 class="text-2xl">Dia</h2>
-            <p>Dia 17 de Enero del 2025</p>
+            <h2 class="text-2xl pb-5">Dia</h2>
+            <p>17 de Enero del 2025</p>
             <p>17:15hs</p>
             <!-- <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
               Agendar
             </button> -->
           </div>
           <div class="mt-7">
-            <h2 class="text-2xl">Lugar</h2>
+            <h2 class="text-2xl pb-5">Lugar</h2>
             <p>Salón del Reino de los Testigos de Jehová</p>
             <!-- <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
               Confirmar Assitencia
             </button> -->
           </div>
           <div class="mt-7 pb-10">
-            <h2 class="text-2xl">Dirección</h2>
+            <h2 class="text-2xl pb-5">Dirección</h2>
             <p>Av. Belgrano 933, Senillosa</p>
             <div class="mt-16">
               <a href="https://maps.app.goo.gl/ia1XFMv7hgNrFvEU9" class="bg-primaryDark hover:bg-primaryLight mt-7 px-10 py-3 rounded-lg">
@@ -54,22 +54,22 @@
           <h1 class="text-4xl">Fiesta</h1>
           <DetalleFour class="px-10 mt-2" />
           <div class="mt-10">
-            <h2 class="text-2xl">Dia</h2>
-            <p>Dia 17 de Enero del 2025</p>
+            <h2 class="text-2xl pb-5">Dia</h2>
+            <p>17 de Enero del 2025</p>
             <p>20:30hs</p>
             <!-- <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
               Agendar
             </button> -->
           </div>
           <div class="mt-7">
-            <h2 class="text-2xl">Lugar</h2>
+            <h2 class="text-2xl pb-5">Lugar</h2>
             <p>Salón de eventos "Lo de Roberto"</p>
             <!-- <button class="bg-primaryDark mt-3 px-10 py-3 rounded-lg">
               Confirmar Assitencia
             </button> -->
           </div>
           <div class="mt-7 pb-10">
-            <h2 class="text-2xl">Dirección</h2>
+            <h2 class="text-2xl pb-5">Dirección</h2>
             <p>Higinio Escudero, Senillosa (Frente Ruta 22)</p>
             <div class="mt-16">
               <a href="https://maps.app.goo.gl/P34YjPgKsvHjGXpQ6" class="bg-primaryDark hover:bg-primaryLight mt-3 px-10 py-3 rounded-lg">

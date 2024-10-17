@@ -52,11 +52,11 @@
             />
           </div>
         </div>
-        <div class="mx-16">
+        <div class="mx-8">
           <h4 class="text-2xl playwrite-gb-s-one">{{ msg }}</h4>
-          <div class="border-t border-secundaryDark my-4"></div>
-          <h1 class="lg:text-8xl text-5xl qwitcher-grypen-bold">L & K</h1>
-          <div class="border-t border-secundaryDark my-4"></div>
+          <div class="border-t border-secundaryDark my-4 lg:w-1/2 w-2/3 mx-auto"></div>
+          <h1 class="lg:text-8xl text-6xl qwitcher-grypen-bold">L & K</h1>
+          <div class="border-t border-secundaryDark my-4 lg:w-1/2 w-2/3 mx-auto"></div>
           <h4 class="lg:text-7xl text-5xl font-bold updock-regular">Luci & Kevin</h4>
         </div>
         <div class="mt-14">
@@ -121,12 +121,12 @@
           />
         </div>
       </div>
-      <div class="mx-16">
+      <div class="mx-4">
         <h4 class="text-2xl playwrite-gb-s-one">Bienvenidos a la invitación de</h4>
-        <div class="border-t border-secundaryDark my-4"></div>
-        <h1 class="lg:text-8xl text-4xl qwitcher-grypen-bold">L & K</h1>
-        <div class="border-t border-secundaryDark my-4"></div>
-        <h4 class="lg:text-7xl text-3xl font-bold updock-regular">Luci & Kevin</h4>
+        <div class="border-t border-secundaryDark my-4 mx-12"></div>
+        <h1 class="lg:text-8xl text-6xl qwitcher-grypen-bold">L & K</h1>
+        <div class="border-t border-secundaryDark my-4 mx-12"></div>
+        <h4 class="lg:text-7xl text-5xl font-bold updock-regular">Luci & Kevin</h4>
       </div>
       <div class="lg:mt-14 mt-5">
         <detalleTwo class="mx-auto fill-secundaryDark stroke-secundaryDark" />
