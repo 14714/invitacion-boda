@@ -124,16 +124,16 @@
       <div class="mx-16">
         <h4 class="text-2xl playwrite-gb-s-one">Bienvenidos a la invitación de</h4>
         <div class="border-t border-secundaryDark my-4"></div>
-        <h1 class="text-8xl qwitcher-grypen-bold">L & K</h1>
+        <h1 class="lg:text-8xl text-4xl qwitcher-grypen-bold">L & K</h1>
         <div class="border-t border-secundaryDark my-4"></div>
-        <h4 class="text-7xl font-bold updock-regular">Luci & Kevin</h4>
+        <h4 class="lg:text-7xl text-3xl font-bold updock-regular">Luci & Kevin</h4>
       </div>
-      <div class="mt-14">
+      <div class="lg:mt-14 mt-5">
         <detalleTwo class="mx-auto fill-secundaryDark stroke-secundaryDark" />
       </div>
       <button
         @click="playAudio(), closeModal()"
-        class="mt-4 px-6 py-5 font-bold text-cxl bg-primaryDark text-white rounded-lg"
+        class="mt-4 px-6 lg:py-5 py-2 font-bold text-cxl bg-primaryDark text-white rounded-lg"
       >
         Entrar
       </button>

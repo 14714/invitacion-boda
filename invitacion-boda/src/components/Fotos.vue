@@ -72,7 +72,7 @@
         <img
           :src="selectedImage"
           alt="Modal Image"
-          class="h-screen"
+          class="lg:h-screen h-auto"
           @click="closeModal"
         />
       </div>
