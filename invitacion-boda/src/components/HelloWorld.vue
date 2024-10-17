@@ -55,14 +55,14 @@
         <div class="mx-16">
           <h4 class="text-2xl playwrite-gb-s-one">{{ msg }}</h4>
           <div class="border-t border-secundaryDark my-4"></div>
-          <h1 class="text-8xl qwitcher-grypen-bold">L & K</h1>
+          <h1 class="lg:text-8xl text-5xl qwitcher-grypen-bold">L & K</h1>
           <div class="border-t border-secundaryDark my-4"></div>
-          <h4 class="text-7xl font-bold updock-regular">Luci & Kevin</h4>
+          <h4 class="lg:text-7xl text-5xl font-bold updock-regular">Luci & Kevin</h4>
         </div>
         <div class="mt-14">
           <detalleThree class="mx-auto fill-secundaryDark" />
           <h4 class="font-bold pt-2 playwrite-gb-s-bold">El Cantar de los Cantares 8:6</h4>
-          <p class="text-center my-4 font-light playwrite-gb-s-one">
+          <p class="lg:text-base text-sm text-center my-4 font-light playwrite-gb-s-one">
             "Ponme como un sello sobre tu corazon, como un sello sobre tu brazo,
             porque el amor es tan fuerte como la muerte, y la devocion total,
             tan exigente como la Tumba. Sus llamas son un fuego ardiente, la

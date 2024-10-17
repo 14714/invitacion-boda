@@ -84,6 +84,8 @@ export default {
     openModal(type) {
       this.isModalOpen = true;
       if (type === "dressCode") {
+        this.preTexto = false,
+        this.postTexto = false,
         this.modalTexto = "1 Timoteo 2:9";
         this.modalTitle = "Dress Code";
         this.tituloModal = "Formal - Gala";
